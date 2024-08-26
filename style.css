@@ -1,9 +1,22 @@
+html {
+    background-color: rgb(14, 47, 56)
+}
+h1 {
+    text-align: center;
+    color:aliceblue;
+    font-family:"Papyrus", "Copperplate", fantasy;
+}
 p {
     text-align:center;
     font-style:verdana;
-    font-size:25px;
+    font-size:20px;
+    color:aliceblue;
+    font-family:"Papyrus", "Copperplate", fantasy;
 }
-
-h2 {
-
+img {
+    padding-left:0;
+    width:50vw;
+    height:70vh;
+    padding-right:24vw;
+    padding-left:24vw;
 }
