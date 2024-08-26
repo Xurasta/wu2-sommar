@@ -19,4 +19,17 @@ img {
     height:70vh;
     padding-right:24vw;
     padding-left:24vw;
+
+}
+@media screen and (max-width: 1000px) {
+    img {
+        width:99vw;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+@media screen and (max-width: 425px) {
+    img {
+        height:40vh;
+    }
 }
