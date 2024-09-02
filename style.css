@@ -1,11 +1,13 @@
 html {
     background-color: rgb(14, 47, 56)
 }
+
 h1 {
     text-align: center;
     color:aliceblue;
     font-family:"Papyrus", "Copperplate", fantasy;
 }
+
 p {
     text-align:center;
     font-style:verdana;
@@ -13,6 +15,11 @@ p {
     color:aliceblue;
     font-family:"Papyrus", "Copperplate", fantasy;
 }
+
+a {
+    color: red;
+}
+
 img {
     padding-left:0;
     width:50vw;
@@ -21,6 +28,7 @@ img {
     padding-left:24vw;
 
 }
+
 @media screen and (max-width: 1000px) {
     img {
         width:99vw;
@@ -28,6 +36,7 @@ img {
         padding-right:0;
     }
 }
+
 @media screen and (max-width: 425px) {
     img {
         height:40vh;

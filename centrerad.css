@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family:"Papyrus", "Copperplate", fantasy;
+    background-color: blanchedalmond;
+}
+
+h1, h2, p {
+    max-width: 80ch;
+}
+
+.container {
+    max-width: 56rem;
+     /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    background-color: blueviolet;
+    height: 50vh;
+    /*display: grid;
+    place-content: center;*/
+    padding: 3rem;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.cta {
+    display: block;
+    color: white;
+    font-size: 2rem;
+}
+
+/*  Navbar code begins here */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: var(--color-bg);
+    font-size: 1.4rem;
+}
+
+.navbar[data-layout="split"] {
+    justify-content: space-between;
+}
+
+.navbar__toggle {
+    border: none;
+    background-color: transparent;
+    display: grid;
+    place-content: center;
+}
+
+/*  Brand or logo for the page */
+.navbarname {
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*  Class to style the unordered list which represents the actual menu */
+.nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links within the nav element, add :hover to improve (Använde det för att bli av med understräck) */
+.nav a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color:black;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .navbar__toggle {
+        display: none;
+    }
+}
